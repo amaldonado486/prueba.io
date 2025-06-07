@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 const CardPizza = ({ id, name, price, ingredients, img, addToCart }) => (
   <div className="card" style={{ width: "18rem", margin: "1rem" }}>
     <img src={img} className="card-img-top" alt={name} />

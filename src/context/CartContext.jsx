@@ -31,7 +31,7 @@ export const CartProvider = ({ children }) => {
     setCart((prevCart) => prevCart.filter((item) => item.id !== pizzaId));
   };
 
-  // Incrementar la cantidad de una pizza
+  //Incrementar la cantidad de una pizza
   const increaseQuantity = (pizzaId) => {
     setCart((prevCart) =>
       prevCart.map((item) =>

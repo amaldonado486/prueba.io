@@ -27,6 +27,7 @@ const Home = () => {
     fetchPizzas();
   }, []);
 
+  
   return (
     <div className="container mt-4">
       <Header />

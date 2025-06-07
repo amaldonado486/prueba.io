@@ -1,10 +1,11 @@
 import React from "react";
 import { useCart } from "../context/CartContext";
-import { useUser } from "../context/UserContext"; //Hito7 Router II
+import { useUser } from "../context/UserContext"; 
 
 const Cart = () => {
   const { cart, increaseQuantity, decreaseQuantity, removeFromCart, total } = useCart();
   const { token } = useUser();
+
 
   return (
     <div className="container mt-5">

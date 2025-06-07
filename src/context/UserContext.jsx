@@ -15,6 +15,7 @@ export const UserProvider = ({ children }) => {
   const [email, setEmail] = useState(localStorage.getItem("email") || "");
 
   const saveAuthData = (token, email) => {
+    console.log('saveAuthData')
     localStorage.setItem("token", token);
     localStorage.setItem("email", email);
     setToken(token);

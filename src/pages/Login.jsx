@@ -50,7 +50,7 @@ const Login = ({ onBackToHome }) => {
             {loading ? 'Cargando...' : 'Login'}
           </button>
           
-          <Link to={`/`} className="btn btn-primary w-100 mb-3">
+          <Link to={`/`} className="btn btn-secundary w-100 mb-3">
           Voler al Home
         </Link>
         </form>
